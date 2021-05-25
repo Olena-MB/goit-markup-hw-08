@@ -1,0 +1,11 @@
+.header {
+  @include borders(1px, #ececec, 0);
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.header-cont {
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- <header class="header">
+      <div class="container header-cont">
+        <a href="./index.html" class="header__logo"
+          >Web<span class="header__logo-span">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">Студия</a>
+            </li>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link current">Портфолио</a>
+            </li>
+            <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./images/svg/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./images/svg/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
+    <main>
+      <section class="section portfolio">
+        <div class="container">
+          <h1 class="portfolio__tittel hidden">Портфолио</h1>
+          <!-- <ul class="filter-list">
+            <li class="portfolio__filter-list filter-list__item">
+              <button
+                type="button"
+                class="filter-list__button filter-list__button--defolt"
+              >
+                Все
+              </button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button">
+                Веб-сайты
+              </button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button">
+                Приложения
+              </button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button">Дизайн</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button">
+                Маркетинг
+              </button>
+            </li>
+          </ul> -->
+          <ul class="portfolio__list">
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img
+                    src="images/portfolio/project-1.jpg"
+                    alt="Ноутбук с запущенным веб-сайтом"
+                  />
+
+                  <p class="flex-element__text-overlay">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">Технокряк</h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img
+                    src="images/portfolio/project-2.jpg"
+                    alt="Два баскетболиста"
+                  />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img
+                    src="images/portfolio/project-3.jpg"
+                    alt="Риба эмблема ресторана"
+                  />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img src="images/portfolio/project-4.jpg" alt="Наушники" />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Проект <span lang="en">Prime</span>
+                  </h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img src="images/portfolio/project-5.jpg" alt="Коробки" />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Проект <span lang="en">Boxes</span>
+                  </h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img
+                    src="images/portfolio/project-6.jpg"
+                    alt="Компьютер с запущенным веб-сайтом"
+                  />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 lang="en" class="flex-element__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img src="images/portfolio/project-7.jpg" alt="Книга" />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img src="images/portfolio/project-8.jpg" alt="Лейба" />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 class="flex-element__title section-title">
+                    Проект <span lang="en">LAB</span>
+                  </h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item flex-element">
+              <a href="" class="flex-element__link">
+                <div class="flex-element__overlay">
+                  <img
+                    src="images/portfolio/project-9.jpg"
+                    alt="Ноутбук с запущенным приложением"
+                  />
+
+                  <p class="flex-element__text-overlay">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aut laborum recusandae sapiente necessitatibus,
+                    doloremque laudantium, similique sunt maxime sit est. Vitae
+                    qui recusandae quas saepe nesciunt architecto delectus
+                    ipsam.
+                  </p>
+                </div>
+                <div class="flex-element__label">
+                  <h2 lang="en" class="flex-element__title section-title">
+                    Growing Business
+                  </h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--футер-->
+    <!-- <footer class="footer">
+      <div class="container footer-cont">
+        <div>
+          <a href="./index.html" class="footer__logo"
+            >Web<span class="footer__logo-span">Studio</span></a
+          >
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a
+                  href="https://goo.gl/maps/Q8eix4cUSPxJvjgE8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="address__link address__link--office"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address__item">
+                <a href="tel:+380991111111" class="address__link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+              <li class="address__item">
+                <a href="mailto:info@example.com" class="address__link"
+                  >info@example.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join-us">
+          <p class="join-us__label">присоединяйтесь</p>
+          <ul class="social-media join-us__social-media">
+            <li class="social-media__item join-us__item">
+              <a
+                href=""
+                class="social-media__link join-us__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-media__icon join-us__icon">
+                  <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item join-us__item">
+              <a
+                href=""
+                class="social-media__link join-us__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-media__icon join-us__icon">
+                  <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item join-us__item">
+              <a
+                href=""
+                class="social-media__link join-us__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-media__icon join-us__icon">
+                  <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item join-us__item">
+              <a
+                href=""
+                class="social-media__link join-us__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-media__icon join-us__icon">
+                  <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <form
+            class="subscribe__form"
+            name="subscribe_form"
+            autocomplete="on"
+            novalidate
+          >
+            <label class="subscribe__label" for="e-mail"
+              >Подпишитесь на рассылку</label
+            >
+            <div>
+              <input
+                class="subscribe__input"
+                type="email"
+                name="email"
+                id="e-mail"
+                placeholder="E-mail"
+              />
+
+              <button type="submit" class="subscribe__button">
+                Подписаться
+                <svg class="button__icon button__icon--send">
+                  <use href="./images/svg/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer> -->
+  </body>
+</html>

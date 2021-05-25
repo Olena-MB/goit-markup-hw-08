@@ -1,0 +1,17 @@
+.header__logo {
+  @extend %logo;
+}
+
+.header__logo-span {
+  color: var(--darck-text-color);
+}
+.footer__logo {
+  @extend %logo;
+
+  margin-right: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.footer__logo-span {
+  color: var(--secondary-text-color);
+}

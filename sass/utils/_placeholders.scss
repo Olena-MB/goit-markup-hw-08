@@ -1,0 +1,17 @@
+%logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 93px;
+  display: block;
+
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+@mixin borders($size, $color, $radius) {
+  border: $size solid $color;
+  border-radius: $radius;
+}

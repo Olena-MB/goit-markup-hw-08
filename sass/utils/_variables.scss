@@ -1,0 +1,27 @@
+/* основний колір фону #ffffff*/
+/*  колір тексту заголовків #212121 */
+/*  колір тексту абзаців #757575 */
+/* акцентні кольори: блакитний- #2196F3; білий-#FFFFFF */
+/* футер - background: #2F303A; */
+/* команда, кнопки фільтру- background: #F5F4FA */
+/*герой - background: #C4C4C4;*/
+
+:root {
+  --primary-text-color: #757575;
+  --hero-bg-color: #c4c4c4;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --darck-bg-color: #2f303a;
+  --icon-color: #afb1b8;
+  --darck-text-color: #000000;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --join-us-bg-color: rgba(255, 255, 255, 0.1);
+  --pf-overlay-color: rgba(33, 150, 243, 0.9);
+  --backdrop-bg-color: rgba(0, 0, 0, 0.2);
+  --placeholder-color: rgba(117, 117, 117, 0.5);
+
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
