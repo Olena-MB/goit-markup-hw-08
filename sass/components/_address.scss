@@ -4,6 +4,10 @@
   align-items: left;
   padding-left: 0;
   margin-top: 20px;
+  @media screen and (max-width: 1199.98px) {
+    align-items: center;
+    margin-bottom: 60px;
+  }
 }
 .address__item {
   margin-bottom: 9px;

@@ -1,6 +1,7 @@
 .flex-element {
   width: 100%;
   @include borders(1px, #eeeeee, 0);
+
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     margin-left: 30px;
     margin-top: 30px;

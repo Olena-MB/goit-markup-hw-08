@@ -7,10 +7,14 @@
 }
 .footer__logo {
   @extend %logo;
-
   margin-right: 0;
   padding-top: 0px;
   padding-bottom: 0px;
+
+  @media screen and (max-width: 1199.98px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 .footer__logo-span {
   color: var(--secondary-text-color);

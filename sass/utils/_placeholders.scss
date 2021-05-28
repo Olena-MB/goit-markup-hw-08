@@ -1,8 +1,14 @@
 %logo {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 93px;
-  display: block;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 
   font-family: var(--logo-font);
   font-size: 26px;
