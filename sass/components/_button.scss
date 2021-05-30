@@ -84,3 +84,13 @@
     color: var(--accent-color);
   }
 }
+.modal__close-icon {
+  object-position: bottom;
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+}
+
+.modal__icon {
+  fill: var(--title-text-color);
+}

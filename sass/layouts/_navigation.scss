@@ -1,3 +1,8 @@
+.header-cont {
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
+}
 .nav__list {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -26,6 +31,7 @@
   &:focus {
     color: var(--accent-color);
   }
+
   &.current::after {
     content: "";
     display: block;
@@ -46,5 +52,4 @@
   @media screen and (min-width: 768px) {
     margin-left: 50px;
   }
-
 }

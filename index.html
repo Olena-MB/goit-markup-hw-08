@@ -23,6 +23,7 @@
         <a href="./index.html" class="header__logo"
           >Web<span class="header__logo-span">Studio</span></a
         >
+
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -54,17 +55,73 @@
         </ul>
       </div>
     </header>
+    <div class="mobile-menu">
+      <div class="mobile-menu__main-panel">
+        <a href="./index.html" class="mobile-menu__logo"
+          >Web<span class="header__logo-span">Studio</span></a
+        >
+        <button class="mobile-menu-btn" data-menu-button>
+          <svg
+            width="40"
+            height="40"
+            aria-label="Перемикач меню"
+            class="mobile-menu__svg"
+          >
+            <use
+              href="./images/svg/symbol-defs.svg#icon-menu"
+              class="mobile-menu-btn__open-icon"
+            ></use>
+            <use
+              href="./images/svg/symbol-defs.svg#icon-close__menu"
+              class="mobile-menu-btn__close-icon"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu__panel" data-menu>
+        <ul class="mobile-menu__nav-list">
+          <li class="mobile-menu__item">
+            <a href="./index.html" class="mobile-menu__link current">Студия</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="./portfolio.html" class="mobile-menu__link">Портфолио</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link">Контакти</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-menu__contacts">
+          <li class="contacts__menu-item">
+            <a href="mailto:info@devstudio.com" class="contacts__menu-link">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./images/svg/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts__menu-item">
+            <a href="tel:+380961111111" class="contacts__menu-link">
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./images/svg/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
     <main>
-      <!--секція герой-->
-      <!-- <section class="hero">
+      <!-- секція герой-->
+      <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
-      </section> -->
-      <!--секція принципи роботи-->
+      </section>
+      <!--секція принципи роботи -->
       <section class="section principles">
         <div class="container">
           <h2 class="hidden">Принципы работы</h2>
@@ -410,7 +467,7 @@
         </div>
       </section>
       <!--партнери-->
-      <!-- <section class="partners">
+      <section class="partners">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="partners__list">
@@ -458,7 +515,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!--футер-->
     <footer class="footer">
@@ -676,5 +733,6 @@
       </div>
     </div>
     <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
   </body>
 </html>

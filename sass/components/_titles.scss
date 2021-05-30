@@ -1,22 +1,37 @@
 .hero__title {
-  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 
+  @media screen and (min-width: 768px) {
+    width: 360px;
+  }
+
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.36;
+    font-size: 44px;
+    width: 696px;
+  }
 }
 
 .section__title {
   margin-bottom: 50px;
 
   color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.16;
+
+  font-size: 28px;
+  line-height: 1.17;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.16;
+  }
   text-align: center;
 }
 
@@ -27,6 +42,10 @@
   line-height: 1.14;
   text-transform: uppercase;
   text-align: left;
+
+  @media screen and (max-width: 767.98px) {
+    text-align: center;
+  }
 }
 .modal__title {
   margin-bottom: 12px;

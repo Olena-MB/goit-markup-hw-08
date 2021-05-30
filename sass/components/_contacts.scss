@@ -1,4 +1,13 @@
 .contacts {
+  @include borders(1px, #ececec, 0);
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: auto;
@@ -28,10 +37,7 @@
     color: var(--accent-color);
   }
 }
-.contacts__item {
-  @media screen and (min-width: 768px) {
-  }
-}
+
 .contacts__item:not(:first-child) {
   @media screen and (min-width: 1200px) {
     margin-left: 50px;

@@ -5,6 +5,13 @@
 .header__logo-span {
   color: var(--darck-text-color);
 }
+
+.mobile-menu__logo {
+  @extend %logo;
+  margin-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
 .footer__logo {
   @extend %logo;
   margin-right: 0;
