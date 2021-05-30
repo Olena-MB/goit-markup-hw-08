@@ -19,7 +19,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/mobile/hero/hero@2x.jpg");
+      url("./images/mobile/hero/hero@2x.jpg");
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
@@ -27,7 +27,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tablet/hero/hero@2x.jpg");
+      url("./images/tablet/hero/hero@2x.jpg");
   }
 
   @media screen and (min-width: 1200px) {
@@ -39,6 +39,6 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/desktop/hero/hero@2x.jpg");
+      url("./images/desktop/hero/hero@2x.jpg");
   }
 }
