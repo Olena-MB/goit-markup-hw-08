@@ -15,6 +15,12 @@
     flex-basis: calc((100% / 3) - 30px);
   }
 
+  &:not(:last-child) {
+    @media screen and (max-width: 767.98px) {
+      margin-bottom: 30px;
+    }
+  }
+
   &:nth-child(2n + 1) {
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
       margin-left: 0;
