@@ -47,6 +47,13 @@
 .contacts__item:not(:last-child) {
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     margin-bottom: 10px;
+    padding-top: 21px;
+  }
+}
+
+.contacts__item:not(:first-child) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    padding-bottom: 21px;
   }
 }
 

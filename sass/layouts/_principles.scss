@@ -12,6 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-inline-start: 0px;
+  justify-content: center;
 }
 
 .principles__item {
@@ -66,5 +67,11 @@
 .principles__item:first-child {
   @media screen and (min-width: 1200px) {
     margin-left: 0;
+  }
+}
+
+.principles__item:nth-last-child(-n + 2) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-bottom: 0;
   }
 }
