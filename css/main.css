@@ -29,6 +29,7 @@
 .header__logo, .footer__logo, .mobile-menu__logo {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 284px;
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
@@ -157,7 +158,7 @@ img {
 }
 
 @media screen and (max-width: 767.98px) {
-  .header-cont {
+  .nav__list {
     display: none;
   }
 }
@@ -822,9 +823,11 @@ img {
 
 .mobile-menu-btn {
   display: inline-flex;
-  margin-left: auto;
+  margin: 0;
   padding: 0;
-  z-index: 100;
+  top: 12px;
+  right: 12px;
+  z-index: 110;
   border: none;
   background-color: transparent;
   color: var(--darck-text-color);
@@ -851,14 +854,15 @@ img {
   width: 18.67px;
   height: 18.67px;
   fill: currentColor;
-}
-
-.mobile-menu-btn__close-icon {
   display: none;
 }
 
 .is-open .mobile-menu-btn__close-icon {
   display: block;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 101;
 }
 
 .is-open .mobile-menu-btn__open-icon {
@@ -878,12 +882,20 @@ img {
 }
 
 .mobile-menu__panel {
-  top: 0;
+  position: absolute;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
+  padding-right: 40px;
   opacity: 0;
-  z-index: 99;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 480px;
+  z-index: 50;
+  overflow-y: scroll;
+  height: 100vh;
+  z-index: 77;
   background-color: #ffffff;
 }
 
@@ -948,7 +960,7 @@ img {
 }
 
 .mobile-menu__logo {
-  margin-right: 0px;
+  margin-right: 284px;
   padding-bottom: 0px;
   padding-top: 0px;
 }
