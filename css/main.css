@@ -29,7 +29,6 @@
 .header__logo, .footer__logo, .mobile-menu__logo {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 284px;
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
@@ -67,6 +66,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin: 0;
+}
+
+body.overflow-is-hidden {
+  overflow: hidden;
 }
 
 ul {
@@ -812,18 +815,18 @@ img {
   top: 0;
   width: 100%;
   z-index: 99;
+  max-height: 796px;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
-    overflow-y: auto;
   }
 }
 
 .mobile-menu-btn {
   display: inline-flex;
-  margin: 0;
+  margin-left: auto;
   padding: 0;
   top: 12px;
   right: 12px;
